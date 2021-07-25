@@ -1,2 +1,2 @@
-# Attack on algorithm :bee:​
+# Attack on Algorithm 🐝
 

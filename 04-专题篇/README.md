@@ -1,4 +1,4 @@
-# Attack on algorithm :bee:​
+# Attack on Algorithm 🐝
 
 * [专题篇](04-专题篇/README.md)
   * [二分法](04-专题篇/01-二分法.md)

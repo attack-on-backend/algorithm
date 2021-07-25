@@ -1,5 +1,4 @@
-# Attack on Algorithm :bee:
-
+# Attack on Algorithm 🐝
 * [基础篇](01-基础篇/README.md)
   * [数组](01-基础篇/01-数组.md)
   * [栈](01-基础篇/02-栈.md)

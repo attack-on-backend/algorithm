@@ -1,4 +1,4 @@
-# Attack on algorithm :bee:​
+# Attack on Algorithm 🐝
 
 * [拓展篇](03-拓展篇/README.md)
   * [双端队列](03-拓展篇/01-双端队列.md)
