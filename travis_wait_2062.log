@@ -3,6 +3,7 @@ On branch gitbook
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
+	modified:   SUMMARY.md
 	modified:   node_modules/align-text/README.md
 	modified:   node_modules/ansi-regex/readme.md
 	modified:   node_modules/are-we-there-yet/CHANGES.md
@@ -514,9 +515,6 @@ Changes not staged for commit:
 	modified:   node_modules/xmlhttprequest/README.md
 	modified:   node_modules/xtend/README.md
 	modified:   node_modules/yargs/CHANGELOG.md
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-	travis_wait_2062.log
+	modified:   travis_wait_2062.log
 
 no changes added to commit (use "git add" and/or "git commit -a")
