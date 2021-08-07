@@ -1,9 +1,11 @@
 # Attack on Algorithm - 基础篇 🐝
-* [基础篇](01-基础篇/README.md)
-  * [数组](01-基础篇/01-数组.md)
-  * [栈](01-基础篇/02-栈.md)
-  * [链表](01-基础篇/03-链表.md)
-  * [树](01-基础篇/04-树.md)
-  * [哈希表](01-基础篇/05-哈希表.md)
-  * [双指针](01-基础篇/06-双指针.md)
+* [基础篇](https://attack-on-backend.github.io/algorithm/01-基础篇/)
+  * [数组](https://attack-on-backend.github.io/algorithm/01-基础篇/01-数组.html)
+  * [栈](https://attack-on-backend.github.io/algorithm/01-基础篇/02-栈.html)
+  * [队列](https://attack-on-backend.github.io/algorithm/01-基础篇/03-队列.html)
+  * [链表](https://attack-on-backend.github.io/algorithm/01-基础篇/04-链表.html)
+  * [树](https://attack-on-backend.github.io/algorithm/01-基础篇/05-树.html)
+  * [哈希表](https://attack-on-backend.github.io/algorithm/01-基础篇/06-哈希表.html)
+  * [双指针](https://attack-on-backend.github.io/algorithm/01-基础篇/07-双指针.html)
+
 
