@@ -1,0 +1,671 @@
+Switched to a new branch 'gitbook'
+On branch gitbook
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   01-基础篇/01-数组.md
+	modified:   01-基础篇/02-栈.md
+	modified:   01-基础篇/03-队列.md
+	modified:   01-基础篇/04-链表.md
+	modified:   01-基础篇/05-树.md
+	modified:   01-基础篇/06-哈希表.md
+	modified:   05-题解/01-150.逆波兰表达式求值.md
+	modified:   05-题解/01-155.最小栈.md
+	modified:   05-题解/01-189.旋转数组.md
+	modified:   05-题解/01-20.有效的括号.md
+	modified:   05-题解/01-21.合并两个有序链表.md
+	modified:   05-题解/01-61.旋转链表.md
+	modified:   05-题解/01-66.加一.md
+	modified:   05-题解/01-83.删除排序链表中的重复元素.md
+	modified:   05-题解/01-941.有效的山脉数组.md
+	modified:   node_modules/align-text/README.md
+	modified:   node_modules/ansi-regex/readme.md
+	modified:   node_modules/are-we-there-yet/CHANGES.md
+	modified:   node_modules/are-we-there-yet/node_modules/isarray/README.md
+	modified:   node_modules/are-we-there-yet/node_modules/readable-stream/CONTRIBUTING.md
+	modified:   node_modules/are-we-there-yet/node_modules/readable-stream/README.md
+	modified:   node_modules/are-we-there-yet/node_modules/readable-stream/doc/wg-meetings/2015-01-30.md
+	modified:   node_modules/are-we-there-yet/node_modules/safe-buffer/README.md
+	modified:   node_modules/are-we-there-yet/node_modules/string_decoder/README.md
+	modified:   node_modules/arr-diff/README.md
+	modified:   node_modules/arr-flatten/README.md
+	modified:   node_modules/array-unique/README.md
+	modified:   node_modules/arrify/readme.md
+	modified:   node_modules/asap/CHANGES.md
+	modified:   node_modules/asap/README.md
+	modified:   node_modules/asn1/README.md
+	modified:   node_modules/assert-plus/README.md
+	modified:   node_modules/async-each/README.md
+	modified:   node_modules/async/README.md
+	modified:   node_modules/balanced-match/README.md
+	modified:   node_modules/batch/Readme.md
+	modified:   node_modules/binary-extensions/readme.md
+	modified:   node_modules/bl/README.md
+	modified:   node_modules/body-parser/README.md
+	modified:   node_modules/body-parser/node_modules/debug/Readme.md
+	modified:   node_modules/body-parser/node_modules/ms/README.md
+	modified:   node_modules/body-parser/node_modules/qs/CHANGELOG.md
+	modified:   node_modules/body-parser/node_modules/qs/README.md
+	modified:   node_modules/brace-expansion/README.md
+	modified:   node_modules/braces/README.md
+	modified:   node_modules/bytes/Readme.md
+	modified:   node_modules/camelcase/readme.md
+	modified:   node_modules/caseless/README.md
+	modified:   node_modules/center-align/README.md
+	modified:   node_modules/cheerio-select/node_modules/css-select/README.md
+	modified:   node_modules/cheerio-select/node_modules/css-what/readme.md
+	modified:   node_modules/cheerio-select/node_modules/dom-serializer/README.md
+	modified:   node_modules/cheerio-select/node_modules/domhandler/readme.md
+	modified:   node_modules/cheerio-select/node_modules/domutils/readme.md
+	modified:   node_modules/cheerio-select/node_modules/entities/readme.md
+	modified:   node_modules/cheerio-select/node_modules/nth-check/README.md
+	modified:   node_modules/cheerio/Readme.md
+	modified:   node_modules/chokidar/README.md
+	modified:   node_modules/clean-css/README.md
+	modified:   node_modules/clean-css/node_modules/commander/Readme.md
+	modified:   node_modules/cli-color/README.md
+	modified:   node_modules/cliui/README.md
+	modified:   node_modules/code-point-at/readme.md
+	modified:   node_modules/colors/README.md
+	modified:   node_modules/combined-stream/Readme.md
+	modified:   node_modules/commander/Readme.md
+	modified:   node_modules/console-control-strings/README.md
+	modified:   node_modules/content-type/README.md
+	modified:   node_modules/crc/README.md
+	modified:   node_modules/css-select/README.md
+	modified:   node_modules/css-what/readme.md
+	modified:   node_modules/d/README.md
+	modified:   node_modules/datauri/README.md
+	modified:   node_modules/debug/README.md
+	modified:   node_modules/decamelize/readme.md
+	modified:   node_modules/delayed-stream/Readme.md
+	modified:   node_modules/delegates/Readme.md
+	modified:   node_modules/depd/Readme.md
+	modified:   node_modules/ee-first/README.md
+	modified:   node_modules/emojify.js/CONTRIBUTING.md
+	modified:   node_modules/emojify.js/README.md
+	modified:   node_modules/entities/readme.md
+	modified:   node_modules/es5-ext/CHANGELOG.md
+	modified:   node_modules/es5-ext/README.md
+	modified:   node_modules/es6-iterator/CHANGELOG.md
+	modified:   node_modules/es6-iterator/README.md
+	modified:   node_modules/es6-iterator/node_modules/d/CHANGELOG.md
+	modified:   node_modules/es6-iterator/node_modules/d/README.md
+	modified:   node_modules/es6-symbol/CHANGELOG.md
+	modified:   node_modules/es6-symbol/README.md
+	modified:   node_modules/es6-symbol/node_modules/d/CHANGELOG.md
+	modified:   node_modules/es6-symbol/node_modules/d/README.md
+	modified:   node_modules/es6-weak-map/README.md
+	modified:   node_modules/es6-weak-map/node_modules/es6-iterator/README.md
+	modified:   node_modules/es6-weak-map/node_modules/es6-symbol/README.md
+	modified:   node_modules/escape-string-regexp/readme.md
+	modified:   node_modules/event-emitter/README.md
+	modified:   node_modules/event-emitter/node_modules/d/CHANGELOG.md
+	modified:   node_modules/event-emitter/node_modules/d/README.md
+	modified:   node_modules/expand-brackets/README.md
+	modified:   node_modules/expand-range/README.md
+	modified:   node_modules/ext/CHANGELOG.md
+	modified:   node_modules/ext/README.md
+	modified:   node_modules/ext/docs/string/random.md
+	modified:   node_modules/ext/node_modules/type/CHANGELOG.md
+	modified:   node_modules/ext/node_modules/type/README.md
+	modified:   node_modules/ext/node_modules/type/docs/array-length.md
+	modified:   node_modules/ext/node_modules/type/docs/array-like.md
+	modified:   node_modules/ext/node_modules/type/docs/array.md
+	modified:   node_modules/ext/node_modules/type/docs/date.md
+	modified:   node_modules/ext/node_modules/type/docs/ensure.md
+	modified:   node_modules/ext/node_modules/type/docs/error.md
+	modified:   node_modules/ext/node_modules/type/docs/finite.md
+	modified:   node_modules/ext/node_modules/type/docs/function.md
+	modified:   node_modules/ext/node_modules/type/docs/integer.md
+	modified:   node_modules/ext/node_modules/type/docs/iterable.md
+	modified:   node_modules/ext/node_modules/type/docs/map.md
+	modified:   node_modules/ext/node_modules/type/docs/natural-number.md
+	modified:   node_modules/ext/node_modules/type/docs/number.md
+	modified:   node_modules/ext/node_modules/type/docs/object.md
+	modified:   node_modules/ext/node_modules/type/docs/plain-function.md
+	modified:   node_modules/ext/node_modules/type/docs/plain-object.md
+	modified:   node_modules/ext/node_modules/type/docs/promise.md
+	modified:   node_modules/ext/node_modules/type/docs/prototype.md
+	modified:   node_modules/ext/node_modules/type/docs/reg-exp.md
+	modified:   node_modules/ext/node_modules/type/docs/safe-integer.md
+	modified:   node_modules/ext/node_modules/type/docs/set.md
+	modified:   node_modules/ext/node_modules/type/docs/string.md
+	modified:   node_modules/ext/node_modules/type/docs/thenable.md
+	modified:   node_modules/ext/node_modules/type/docs/time-value.md
+	modified:   node_modules/ext/node_modules/type/docs/value.md
+	modified:   node_modules/extglob/README.md
+	modified:   node_modules/faye-websocket/README.md
+	modified:   node_modules/filename-regex/README.md
+	modified:   node_modules/fill-range/README.md
+	modified:   node_modules/for-in/README.md
+	modified:   node_modules/for-own/README.md
+	modified:   node_modules/form-data/Readme.md
+	modified:   node_modules/form-data/node_modules/mime-types/README.md
+	modified:   node_modules/fresh/README.md
+	modified:   node_modules/fs.realpath/README.md
+	modified:   node_modules/fstream-ignore/node_modules/minimatch/README.md
+	modified:   node_modules/fstream/README.md
+	modified:   node_modules/fstream/node_modules/graceful-fs/README.md
+	modified:   node_modules/gitbook-asciidoc/node_modules/q/CHANGES.md
+	modified:   node_modules/gitbook-asciidoc/node_modules/q/README.md
+	modified:   node_modules/gitbook-parsers/node_modules/q/CHANGES.md
+	modified:   node_modules/gitbook-parsers/node_modules/q/README.md
+	modified:   node_modules/gitbook-plugin-advanced-emoji/README.md
+	modified:   node_modules/gitbook-plugin-anchor-navigation-ex-toc/doc/config-en.md
+	modified:   node_modules/gitbook-plugin-anchor-navigation-ex-toc/doc/config.md
+	modified:   node_modules/gitbook-plugin-anchor-navigation-ex-toc/doc/updateRecord-en.md
+	modified:   node_modules/gitbook-plugin-anchor-navigation-ex-toc/doc/updateRecord.md
+	modified:   node_modules/gitbook-plugin-copy-code-button/README.md
+	modified:   node_modules/gitbook-plugin-favicon/README.md
+	modified:   node_modules/gitbook-plugin-github-buttons/README.md
+	modified:   node_modules/gitbook-plugin-github/README.md
+	modified:   node_modules/gitbook-plugin-lightbox/README.md
+	modified:   node_modules/gitbook-plugin-lightbox/node_modules/cheerio/Readme.md
+	modified:   node_modules/gitbook-plugin-lightbox/node_modules/dom-serializer/README.md
+	modified:   node_modules/gitbook-plugin-lightbox/node_modules/domhandler/readme.md
+	modified:   node_modules/gitbook-plugin-lightbox/node_modules/domutils/readme.md
+	modified:   node_modules/gitbook-plugin-lightbox/node_modules/entities/readme.md
+	modified:   node_modules/gitbook-plugin-lightbox/node_modules/htmlparser2/README.md
+	modified:   node_modules/gitbook-plugin-lightbox/node_modules/uuid/CHANGELOG.md
+	modified:   node_modules/gitbook-plugin-lightbox/node_modules/uuid/README.md
+	modified:   node_modules/gitbook-plugin-theme-comscore/README.md
+	modified:   node_modules/gitbook-plugin-toggle-chapters/README.md
+	modified:   node_modules/gitbook-restructuredtext/node_modules/q/CHANGES.md
+	modified:   node_modules/gitbook-restructuredtext/node_modules/q/README.md
+	modified:   node_modules/gitbook/node_modules/i18n/package.json
+	modified:   node_modules/gitbook/node_modules/send/package.json
+	modified:   node_modules/glob-base/README.md
+	modified:   node_modules/glob-base/node_modules/is-glob/README.md
+	modified:   node_modules/glob-parent/node_modules/is-glob/README.md
+	modified:   node_modules/glob/README.md
+	modified:   node_modules/glob/changelog.md
+	modified:   node_modules/glob/node_modules/minimatch/README.md
+	modified:   node_modules/graceful-fs/README.md
+	modified:   node_modules/graceful-readlink/README.md
+	modified:   node_modules/has-unicode/README.md
+	modified:   node_modules/hawk/README.md
+	modified:   node_modules/highlight.js/README.md
+	modified:   node_modules/hoek/README.md
+	modified:   node_modules/htmlparser2/README.md
+	modified:   node_modules/http-errors/README.md
+	modified:   node_modules/http-parser-js/CHANGELOG.md
+	modified:   node_modules/http-parser-js/README.md
+	modified:   node_modules/http-signature/README.md
+	modified:   node_modules/http-signature/http_signing.md
+	modified:   node_modules/i18n/README.md
+	modified:   node_modules/iconv-lite/README.md
+	modified:   node_modules/inflight/README.md
+	modified:   node_modules/inherits/README.md
+	modified:   node_modules/is-binary-path/readme.md
+	modified:   node_modules/is-buffer/README.md
+	modified:   node_modules/is-dotfile/README.md
+	modified:   node_modules/is-equal-shallow/README.md
+	modified:   node_modules/is-extendable/README.md
+	modified:   node_modules/is-extglob/README.md
+	modified:   node_modules/is-fullwidth-code-point/readme.md
+	modified:   node_modules/is-glob/README.md
+	modified:   node_modules/is-number/README.md
+	modified:   node_modules/is-posix-bracket/README.md
+	modified:   node_modules/is-primitive/README.md
+	modified:   node_modules/isarray/README.md
+	modified:   node_modules/isobject/README.md
+	modified:   node_modules/isobject/node_modules/isarray/README.md
+	modified:   node_modules/json-schema-defaults/CHANGELOG.md
+	modified:   node_modules/json-schema-defaults/Readme.md
+	modified:   node_modules/json-stringify-safe/CHANGELOG.md
+	modified:   node_modules/json-stringify-safe/README.md
+	modified:   node_modules/jsonfile/node_modules/graceful-fs/README.md
+	modified:   node_modules/jsonschema/README.md
+	modified:   node_modules/juice/README.md
+	modified:   node_modules/kind-of/README.md
+	modified:   node_modules/klaw/node_modules/graceful-fs/README.md
+	modified:   node_modules/kramed/README.md
+	modified:   node_modules/kramed/doc/broken.md
+	modified:   node_modules/lazy-cache/README.md
+	modified:   node_modules/lodash/README.md
+	modified:   node_modules/longest/README.md
+	modified:   node_modules/lru-cache/README.md
+	modified:   node_modules/lru-queue/README.md
+	modified:   node_modules/math-random/readme.md
+	modified:   node_modules/media-typer/README.md
+	modified:   node_modules/memoizee/README.md
+	modified:   node_modules/memoizee/node_modules/next-tick/README.md
+	modified:   node_modules/merge-defaults/README.md
+	modified:   node_modules/merge-defaults/node_modules/lodash/README.md
+	modified:   node_modules/micromatch/README.md
+	modified:   node_modules/micromatch/node_modules/is-glob/README.md
+	modified:   node_modules/mime-db/README.md
+	modified:   node_modules/mime-types/README.md
+	modified:   node_modules/mime/README.md
+	modified:   node_modules/mimer/README.md
+	modified:   node_modules/minimatch/README.md
+	modified:   node_modules/ms/readme.md
+	modified:   node_modules/mustache/CHANGELOG.md
+	modified:   node_modules/mustache/README.md
+	modified:   node_modules/next-tick/README.md
+	modified:   node_modules/normalize-path/README.md
+	modified:   node_modules/npm/CONTRIBUTING.md
+	modified:   node_modules/npm/README.md
+	modified:   node_modules/npm/doc/api/npm-bin.md
+	modified:   node_modules/npm/doc/api/npm-bugs.md
+	modified:   node_modules/npm/doc/api/npm-cache.md
+	modified:   node_modules/npm/doc/api/npm-commands.md
+	modified:   node_modules/npm/doc/api/npm-config.md
+	modified:   node_modules/npm/doc/api/npm-deprecate.md
+	modified:   node_modules/npm/doc/api/npm-docs.md
+	modified:   node_modules/npm/doc/api/npm-edit.md
+	modified:   node_modules/npm/doc/api/npm-explore.md
+	modified:   node_modules/npm/doc/api/npm-help-search.md
+	modified:   node_modules/npm/doc/api/npm-init.md
+	modified:   node_modules/npm/doc/api/npm-install.md
+	modified:   node_modules/npm/doc/api/npm-link.md
+	modified:   node_modules/npm/doc/api/npm-load.md
+	modified:   node_modules/npm/doc/api/npm-ls.md
+	modified:   node_modules/npm/doc/api/npm-outdated.md
+	modified:   node_modules/npm/doc/api/npm-owner.md
+	modified:   node_modules/npm/doc/api/npm-pack.md
+	modified:   node_modules/npm/doc/api/npm-prefix.md
+	modified:   node_modules/npm/doc/api/npm-prune.md
+	modified:   node_modules/npm/doc/api/npm-publish.md
+	modified:   node_modules/npm/doc/api/npm-rebuild.md
+	modified:   node_modules/npm/doc/api/npm-repo.md
+	modified:   node_modules/npm/doc/api/npm-restart.md
+	modified:   node_modules/npm/doc/api/npm-root.md
+	modified:   node_modules/npm/doc/api/npm-run-script.md
+	modified:   node_modules/npm/doc/api/npm-search.md
+	modified:   node_modules/npm/doc/api/npm-shrinkwrap.md
+	modified:   node_modules/npm/doc/api/npm-start.md
+	modified:   node_modules/npm/doc/api/npm-stop.md
+	modified:   node_modules/npm/doc/api/npm-tag.md
+	modified:   node_modules/npm/doc/api/npm-test.md
+	modified:   node_modules/npm/doc/api/npm-uninstall.md
+	modified:   node_modules/npm/doc/api/npm-unpublish.md
+	modified:   node_modules/npm/doc/api/npm-update.md
+	modified:   node_modules/npm/doc/api/npm-version.md
+	modified:   node_modules/npm/doc/api/npm-view.md
+	modified:   node_modules/npm/doc/api/npm-whoami.md
+	modified:   node_modules/npm/doc/api/npm.md
+	modified:   node_modules/npm/doc/cli/npm-access.md
+	modified:   node_modules/npm/doc/cli/npm-adduser.md
+	modified:   node_modules/npm/doc/cli/npm-bin.md
+	modified:   node_modules/npm/doc/cli/npm-bugs.md
+	modified:   node_modules/npm/doc/cli/npm-build.md
+	modified:   node_modules/npm/doc/cli/npm-bundle.md
+	modified:   node_modules/npm/doc/cli/npm-cache.md
+	modified:   node_modules/npm/doc/cli/npm-completion.md
+	modified:   node_modules/npm/doc/cli/npm-config.md
+	modified:   node_modules/npm/doc/cli/npm-dedupe.md
+	modified:   node_modules/npm/doc/cli/npm-deprecate.md
+	modified:   node_modules/npm/doc/cli/npm-dist-tag.md
+	modified:   node_modules/npm/doc/cli/npm-docs.md
+	modified:   node_modules/npm/doc/cli/npm-edit.md
+	modified:   node_modules/npm/doc/cli/npm-explore.md
+	modified:   node_modules/npm/doc/cli/npm-help-search.md
+	modified:   node_modules/npm/doc/cli/npm-help.md
+	modified:   node_modules/npm/doc/cli/npm-init.md
+	modified:   node_modules/npm/doc/cli/npm-install.md
+	modified:   node_modules/npm/doc/cli/npm-link.md
+	modified:   node_modules/npm/doc/cli/npm-ls.md
+	modified:   node_modules/npm/doc/cli/npm-outdated.md
+	modified:   node_modules/npm/doc/cli/npm-owner.md
+	modified:   node_modules/npm/doc/cli/npm-pack.md
+	modified:   node_modules/npm/doc/cli/npm-prefix.md
+	modified:   node_modules/npm/doc/cli/npm-prune.md
+	modified:   node_modules/npm/doc/cli/npm-publish.md
+	modified:   node_modules/npm/doc/cli/npm-rebuild.md
+	modified:   node_modules/npm/doc/cli/npm-repo.md
+	modified:   node_modules/npm/doc/cli/npm-restart.md
+	modified:   node_modules/npm/doc/cli/npm-rm.md
+	modified:   node_modules/npm/doc/cli/npm-root.md
+	modified:   node_modules/npm/doc/cli/npm-run-script.md
+	modified:   node_modules/npm/doc/cli/npm-search.md
+	modified:   node_modules/npm/doc/cli/npm-shrinkwrap.md
+	modified:   node_modules/npm/doc/cli/npm-star.md
+	modified:   node_modules/npm/doc/cli/npm-stars.md
+	modified:   node_modules/npm/doc/cli/npm-start.md
+	modified:   node_modules/npm/doc/cli/npm-stop.md
+	modified:   node_modules/npm/doc/cli/npm-tag.md
+	modified:   node_modules/npm/doc/cli/npm-test.md
+	modified:   node_modules/npm/doc/cli/npm-uninstall.md
+	modified:   node_modules/npm/doc/cli/npm-unpublish.md
+	modified:   node_modules/npm/doc/cli/npm-update.md
+	modified:   node_modules/npm/doc/cli/npm-version.md
+	modified:   node_modules/npm/doc/cli/npm-view.md
+	modified:   node_modules/npm/doc/cli/npm-whoami.md
+	modified:   node_modules/npm/doc/cli/npm.md
+	modified:   node_modules/npm/doc/files/npm-folders.md
+	modified:   node_modules/npm/doc/files/npmrc.md
+	modified:   node_modules/npm/doc/files/package.json.md
+	modified:   node_modules/npm/doc/misc/npm-coding-style.md
+	modified:   node_modules/npm/doc/misc/npm-config.md
+	modified:   node_modules/npm/doc/misc/npm-developers.md
+	modified:   node_modules/npm/doc/misc/npm-disputes.md
+	modified:   node_modules/npm/doc/misc/npm-faq.md
+	modified:   node_modules/npm/doc/misc/npm-index.md
+	modified:   node_modules/npm/doc/misc/npm-registry.md
+	modified:   node_modules/npm/doc/misc/npm-scope.md
+	modified:   node_modules/npm/doc/misc/npm-scripts.md
+	modified:   node_modules/npm/doc/misc/removing-npm.md
+	modified:   node_modules/npm/doc/misc/semver.md
+	modified:   node_modules/npm/node_modules/ansicolors/README.md
+	modified:   node_modules/npm/node_modules/ansistyles/README.md
+	modified:   node_modules/npm/node_modules/async-some/README.md
+	modified:   node_modules/npm/node_modules/char-spinner/README.md
+	modified:   node_modules/npm/node_modules/child-process-close/README.md
+	modified:   node_modules/npm/node_modules/cmd-shim/README.md
+	modified:   node_modules/npm/node_modules/columnify/Readme.md
+	modified:   node_modules/npm/node_modules/columnify/node_modules/strip-ansi/node_modules/ansi-regex/readme.md
+	modified:   node_modules/npm/node_modules/columnify/node_modules/strip-ansi/readme.md
+	modified:   node_modules/npm/node_modules/columnify/node_modules/wcwidth/Readme.md
+	modified:   node_modules/npm/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/README.md
+	modified:   node_modules/npm/node_modules/columnify/node_modules/wcwidth/node_modules/defaults/node_modules/clone/README.md
+	modified:   node_modules/npm/node_modules/dezalgo/README.md
+	modified:   node_modules/npm/node_modules/dezalgo/node_modules/asap/README.md
+	modified:   node_modules/npm/node_modules/fs-vacuum/README.md
+	modified:   node_modules/npm/node_modules/fs-write-stream-atomic/README.md
+	modified:   node_modules/npm/node_modules/fstream/README.md
+	modified:   node_modules/npm/node_modules/github-url-from-username-repo/README.md
+	modified:   node_modules/npm/node_modules/glob/README.md
+	modified:   node_modules/npm/node_modules/graceful-fs/README.md
+	modified:   node_modules/npm/node_modules/inflight/README.md
+	modified:   node_modules/npm/node_modules/inherits/README.md
+	modified:   node_modules/npm/node_modules/ini/README.md
+	modified:   node_modules/npm/node_modules/init-package-json/README.md
+	modified:   node_modules/npm/node_modules/init-package-json/node_modules/promzard/README.md
+	modified:   node_modules/npm/node_modules/init-package-json/node_modules/promzard/example/npm-init/README.md
+	modified:   node_modules/npm/node_modules/lockfile/README.md
+	modified:   node_modules/npm/node_modules/lru-cache/README.md
+	modified:   node_modules/npm/node_modules/minimatch/README.md
+	modified:   node_modules/npm/node_modules/minimatch/node_modules/brace-expansion/README.md
+	modified:   node_modules/npm/node_modules/minimatch/node_modules/brace-expansion/node_modules/balanced-match/README.md
+	modified:   node_modules/npm/node_modules/node-gyp/node_modules/minimatch/README.md
+	modified:   node_modules/npm/node_modules/node-gyp/node_modules/minimatch/node_modules/sigmund/README.md
+	modified:   node_modules/npm/node_modules/nopt/README.md
+	modified:   node_modules/npm/node_modules/normalize-git-url/README.md
+	modified:   node_modules/npm/node_modules/normalize-package-data/README.md
+	modified:   node_modules/npm/node_modules/npm-cache-filename/README.md
+	modified:   node_modules/npm/node_modules/npm-install-checks/README.md
+	modified:   node_modules/npm/node_modules/npm-package-arg/README.md
+	modified:   node_modules/npm/node_modules/npm-registry-client/README.md
+	modified:   node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/node_modules/readable-stream/node_modules/isarray/README.md
+	modified:   node_modules/npm/node_modules/npm-registry-client/node_modules/concat-stream/readme.md
+	modified:   node_modules/npm/node_modules/npm-registry-client/node_modules/npm-package-arg/README.md
+	modified:   node_modules/npm/node_modules/npm-registry-client/node_modules/npm-package-arg/node_modules/hosted-git-info/README.md
+	modified:   node_modules/npm/node_modules/npm-registry-client/node_modules/npmlog/README.md
+	modified:   node_modules/npm/node_modules/npmlog/README.md
+	modified:   node_modules/npm/node_modules/once/README.md
+	modified:   node_modules/npm/node_modules/opener/README.md
+	modified:   node_modules/npm/node_modules/osenv/README.md
+	modified:   node_modules/npm/node_modules/path-is-inside/README.md
+	modified:   node_modules/npm/node_modules/read-installed/README.md
+	modified:   node_modules/npm/node_modules/read-installed/node_modules/debuglog/README.md
+	modified:   node_modules/npm/node_modules/read-installed/node_modules/readdir-scoped-modules/README.md
+	modified:   node_modules/npm/node_modules/read-installed/node_modules/util-extend/README.md
+	modified:   node_modules/npm/node_modules/read-package-json/README.md
+	modified:   node_modules/npm/node_modules/read/README.md
+	modified:   node_modules/npm/node_modules/read/node_modules/mute-stream/README.md
+	modified:   node_modules/npm/node_modules/readable-stream/node_modules/isarray/README.md
+	modified:   node_modules/npm/node_modules/realize-package-specifier/README.md
+	modified:   node_modules/npm/node_modules/request/CHANGELOG.md
+	modified:   node_modules/npm/node_modules/request/CONTRIBUTING.md
+	modified:   node_modules/npm/node_modules/request/README.md
+	modified:   node_modules/npm/node_modules/request/examples/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/bl/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/caseless/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/combined-stream/Readme.md
+	modified:   node_modules/npm/node_modules/request/node_modules/combined-stream/node_modules/delayed-stream/Readme.md
+	modified:   node_modules/npm/node_modules/request/node_modules/form-data/Readme.md
+	modified:   node_modules/npm/node_modules/request/node_modules/form-data/node_modules/async/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/form-data/node_modules/mime-types/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/form-data/node_modules/mime-types/node_modules/mime-db/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/hawk/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/hawk/node_modules/hoek/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/http-signature/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/http-signature/http_signing.md
+	modified:   node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/asn1/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/http-signature/node_modules/assert-plus/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/json-stringify-safe/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/mime-types/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/node-uuid/README.md
+	modified:   node_modules/npm/node_modules/request/node_modules/qs/CHANGELOG.md
+	modified:   node_modules/npm/node_modules/request/node_modules/qs/Readme.md
+	modified:   node_modules/npm/node_modules/request/node_modules/tough-cookie/node_modules/punycode/README.md
+	modified:   node_modules/npm/node_modules/retry/Readme.md
+	modified:   node_modules/npm/node_modules/rimraf/README.md
+	modified:   node_modules/npm/node_modules/semver/README.md
+	modified:   node_modules/npm/node_modules/sha/README.md
+	modified:   node_modules/npm/node_modules/sha/node_modules/readable-stream/node_modules/isarray/README.md
+	modified:   node_modules/npm/node_modules/slide/README.md
+	modified:   node_modules/npm/node_modules/tar/README.md
+	modified:   node_modules/npm/node_modules/umask/README.md
+	modified:   node_modules/npm/node_modules/wrappy/README.md
+	modified:   node_modules/npmi/node_modules/semver/README.md
+	modified:   node_modules/number-is-nan/readme.md
+	modified:   node_modules/nunjucks/README.md
+	modified:   node_modules/object-assign/readme.md
+	modified:   node_modules/object.omit/README.md
+	modified:   node_modules/on-finished/README.md
+	modified:   node_modules/once/README.md
+	modified:   node_modules/opal-npm-wrapper/README.md
+	modified:   node_modules/os-homedir/readme.md
+	modified:   node_modules/os-tmpdir/readme.md
+	modified:   node_modules/parse-glob/README.md
+	modified:   node_modules/parse-glob/node_modules/is-glob/README.md
+	modified:   node_modules/parseurl/README.md
+	modified:   node_modules/path-is-absolute/readme.md
+	modified:   node_modules/preserve/.verb.md
+	modified:   node_modules/preserve/README.md
+	modified:   node_modules/psl/README.md
+	modified:   node_modules/punycode/README.md
+	modified:   node_modules/q/README.md
+	modified:   node_modules/qs/CHANGELOG.md
+	modified:   node_modules/qs/README.md
+	modified:   node_modules/randomatic/README.md
+	modified:   node_modules/randomatic/node_modules/is-number/README.md
+	modified:   node_modules/randomatic/node_modules/kind-of/CHANGELOG.md
+	modified:   node_modules/randomatic/node_modules/kind-of/README.md
+	modified:   node_modules/range-parser/README.md
+	modified:   node_modules/raw-body/README.md
+	modified:   node_modules/raw-body/node_modules/bytes/Readme.md
+	modified:   node_modules/readdirp/README.md
+	modified:   node_modules/readdirp/examples/Readme.md
+	modified:   node_modules/readdirp/node_modules/graceful-fs/README.md
+	modified:   node_modules/regex-cache/README.md
+	modified:   node_modules/remove-trailing-separator/history.md
+	modified:   node_modules/remove-trailing-separator/readme.md
+	modified:   node_modules/repeat-element/README.md
+	modified:   node_modules/repeat-string/README.md
+	modified:   node_modules/request/CHANGELOG.md
+	modified:   node_modules/request/CONTRIBUTING.md
+	modified:   node_modules/request/README.md
+	modified:   node_modules/request/examples/README.md
+	modified:   node_modules/right-align/README.md
+	modified:   node_modules/rimraf/README.md
+	modified:   node_modules/safe-buffer/README.md
+	modified:   node_modules/semver/README.md
+	modified:   node_modules/send/Readme.md
+	modified:   node_modules/set-blocking/README.md
+	modified:   node_modules/sigmund/README.md
+	modified:   node_modules/signal-exit/CHANGELOG.md
+	modified:   node_modules/signal-exit/README.md
+	modified:   node_modules/slick/README.md
+	modified:   node_modules/source-map/CHANGELOG.md
+	modified:   node_modules/source-map/README.md
+	modified:   node_modules/sprintf/README.md
+	modified:   node_modules/statuses/README.md
+	modified:   node_modules/string-width/readme.md
+	modified:   node_modules/strip-ansi/readme.md
+	modified:   node_modules/templayed/README.md
+	modified:   node_modules/timers-ext/CHANGELOG.md
+	modified:   node_modules/timers-ext/README.md
+	modified:   node_modules/tiny-lr/node_modules/debug/Readme.md
+	modified:   node_modules/tiny-lr/node_modules/ms/README.md
+	modified:   node_modules/tiny-lr/node_modules/qs/CHANGELOG.md
+	modified:   node_modules/tiny-lr/node_modules/qs/README.md
+	modified:   node_modules/tiny-lr/readme.md
+	modified:   node_modules/tmp/README.md
+	modified:   node_modules/tough-cookie/README.md
+	modified:   node_modules/tslib/README.md
+	modified:   node_modules/type-is/README.md
+	modified:   node_modules/type-is/node_modules/mime-db/README.md
+	modified:   node_modules/type-is/node_modules/mime-types/README.md
+	modified:   node_modules/type/CHANGELOG.md
+	modified:   node_modules/type/README.md
+	modified:   node_modules/uglify-js/README.md
+	modified:   node_modules/uglify-to-browserify/README.md
+	modified:   node_modules/universalify/README.md
+	modified:   node_modules/unpipe/README.md
+	modified:   node_modules/urijs/README.md
+	modified:   node_modules/user-home/readme.md
+	modified:   node_modules/util-deprecate/README.md
+	modified:   node_modules/web-resource-inliner/HISTORY.md
+	modified:   node_modules/web-resource-inliner/README.md
+	modified:   node_modules/websocket-driver/README.md
+	modified:   node_modules/websocket-extensions/README.md
+	modified:   node_modules/websocket-extensions/lib/pipeline/README.md
+	modified:   node_modules/window-size/README.md
+	modified:   node_modules/wrappy/README.md
+	modified:   node_modules/xmlhttprequest/README.md
+	modified:   node_modules/xtend/README.md
+	modified:   node_modules/yargs/CHANGELOG.md
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	travis_wait_2070.log
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[gitbook 65ae3288] [Travis] Update SUMMARY.md
+ 527 files changed, 1589 insertions(+), 4 deletions(-)
+ create mode 100644 travis_wait_2070.log
+To https://github.com/attack-on-backend/algorithm.git
+   47e640d6..65ae3288  gitbook -> gitbook
+Installing GitBook 3.2.3
+gitbook@3.2.3 ../../../../../tmp/tmp-6853IZCKztxi6BYH/node_modules/gitbook
+├── bash-color@0.0.4
+├── escape-string-regexp@1.0.5
+├── escape-html@1.0.3
+├── destroy@1.0.4
+├── ignore@3.1.2
+├── q@1.4.1
+├── gitbook-plugin-livereload@0.0.1
+├── graceful-fs@4.1.4
+├── cp@0.2.0
+├── nunjucks-do@1.0.0
+├── github-slugid@1.0.1
+├── direction@0.1.5
+├── spawn-cmd@0.0.2
+├── gitbook-plugin-fontsettings@2.0.0
+├── open@0.0.5
+├── is@3.3.0
+├── object-path@0.9.2
+├── extend@3.0.2
+├── json-schema-defaults@0.1.1
+├── gitbook-plugin-search@2.2.1
+├── jsonschema@1.1.0
+├── semver@5.1.0
+├── crc@3.4.0
+├── urijs@1.18.0
+├── immutable@3.8.2
+├── front-matter@2.3.0
+├── dom-serializer@0.1.0 (domelementtype@1.1.3, entities@1.1.2)
+├── error@7.0.2 (xtend@4.0.2, string-template@0.2.1)
+├── npmi@2.0.1 (semver@4.3.6)
+├── tmp@0.0.28 (os-tmpdir@1.0.2)
+├── omit-keys@0.1.0 (array-difference@0.0.1, isobject@0.2.0)
+├── send@0.13.2 (range-parser@1.0.3, etag@1.7.0, fresh@0.3.0, statuses@1.2.1, ms@0.7.1, depd@1.1.2, mime@1.3.4, debug@2.2.0, http-errors@1.3.1, on-finished@2.3.0)
+├── mkdirp@0.5.1 (minimist@0.0.8)
+├── resolve@1.1.7
+├── rmdir@1.2.0 (node.flow@1.2.3)
+├── fresh-require@1.0.3 (is-require@0.0.1, shallow-copy@0.0.1, sleuth@0.1.1, astw@1.3.0, through2@0.6.5, escodegen@1.14.3, acorn@0.9.0)
+├── gitbook-plugin-theme-default@1.0.7
+├── js-yaml@3.14.1 (esprima@4.0.1, argparse@1.0.10)
+├── cpr@1.1.1 (rimraf@2.4.5)
+├── tiny-lr@0.2.1 (parseurl@1.3.3, livereload-js@2.4.0, qs@5.1.0, debug@2.2.0, body-parser@1.14.2, faye-websocket@0.10.0)
+├── gitbook-plugin-lunr@1.2.0 (html-entities@1.2.0, lunr@0.5.12)
+├── chokidar@1.5.0 (async-each@1.0.3, path-is-absolute@1.0.1, inherits@2.0.4, glob-parent@2.0.0, is-glob@2.0.1, is-binary-path@1.0.1, anymatch@1.3.2, readdirp@2.2.1)
+├── nunjucks@2.5.2 (asap@2.0.6, yargs@3.32.0, chokidar@1.7.0)
+├── read-installed@4.0.3 (debuglog@1.0.1, util-extend@1.0.3, slide@1.1.6, readdir-scoped-modules@1.1.0, read-package-json@2.1.2)
+├── gitbook-plugin-highlight@2.0.2 (highlight.js@9.2.0)
+├── moment@2.13.0
+├── gitbook-plugin-sharing@1.0.2 (lodash@3.10.1)
+├── i18n-t@1.0.1 (lodash@4.17.21)
+├── cheerio@0.20.0 (entities@1.1.2, css-select@1.2.0, htmlparser2@3.8.3, jsdom@7.2.2, lodash@4.17.21)
+├── gitbook-asciidoc@1.2.2 (gitbook-html@1.3.3, asciidoctor.js@1.5.5-1, lodash@4.17.21)
+├── gitbook-markdown@1.3.2 (kramed-text-renderer@0.2.1, gitbook-html@1.3.3, kramed@0.5.6, lodash@4.17.21)
+├── juice@2.0.0 (deep-extend@0.4.2, slick@1.12.2, batch@0.5.3, cssom@0.3.1, commander@2.9.0, cross-spawn-async@2.2.5, web-resource-inliner@2.0.0)
+├── request@2.72.0 (tunnel-agent@0.4.3, aws-sign2@0.6.0, forever-agent@0.6.1, oauth-sign@0.8.2, caseless@0.11.0, is-typedarray@1.0.0, stringstream@0.0.6, aws4@1.11.0, isstream@0.1.2, json-stringify-safe@5.0.1, tough-cookie@2.2.2, node-uuid@1.4.8, qs@6.1.2, combined-stream@1.0.8, mime-types@2.1.32, bl@1.1.2, hawk@3.1.3, har-validator@2.0.6, http-signature@1.1.1, form-data@1.0.1)
+└── npm@3.9.2
+[0;36minfo:[0m installing 13 plugins using npm@3.9.2 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "advanced-emoji" 
+[0;36minfo:[0m install plugin "advanced-emoji" (*) from NPM with version 0.2.2 
+[0;36minfo:[0m [0;32m>> [0mplugin "advanced-emoji" installed with success 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "toggle-chapters" 
+[0;36minfo:[0m install plugin "toggle-chapters" (*) from NPM with version 0.0.3 
+[0;36minfo:[0m [0;32m>> [0mplugin "toggle-chapters" installed with success 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "theme-comscore" 
+[0;36minfo:[0m install plugin "theme-comscore" (*) from NPM with version 0.0.3 
+[0;36minfo:[0m [0;32m>> [0mplugin "theme-comscore" installed with success 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "splitter" 
+[0;36minfo:[0m install plugin "splitter" (*) from NPM with version 0.0.8 
+[0;36minfo:[0m [0;32m>> [0mplugin "splitter" installed with success 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "github" 
+[0;36minfo:[0m install plugin "github" (*) from NPM with version 2.0.0 
+[0;36minfo:[0m [0;32m>> [0mplugin "github" installed with success 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "github-buttons" 
+[0;36minfo:[0m install plugin "github-buttons" (2.1.0) from NPM with version 2.1.0 
+[0;36minfo:[0m [0;32m>> [0mplugin "github-buttons" installed with success 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "search-plus" 
+[0;36minfo:[0m install plugin "search-plus" (*) from NPM with version 1.0.3 
+[0;36minfo:[0m [0;32m>> [0mplugin "search-plus" installed with success 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "anchor-navigation-ex-toc" 
+[0;36minfo:[0m install plugin "anchor-navigation-ex-toc" (0.0.9) from NPM with version 0.0.9 
+[0;36minfo:[0m [0;32m>> [0mplugin "anchor-navigation-ex-toc" installed with success 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "editlink" 
+[0;36minfo:[0m install plugin "editlink" (*) from NPM with version 1.0.2 
+[0;36minfo:[0m [0;32m>> [0mplugin "editlink" installed with success 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "fontsettings" 
+[0;36minfo:[0m install plugin "fontsettings" (*) from NPM with version 2.0.0 
+[0;36minfo:[0m [0;32m>> [0mplugin "fontsettings" installed with success 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "copy-code-button" 
+[0;36minfo:[0m install plugin "copy-code-button" (*) from NPM with version 0.0.2 
+[0;36minfo:[0m [0;32m>> [0mplugin "copy-code-button" installed with success 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "lightbox" 
+[0;36minfo:[0m install plugin "lightbox" (*) from NPM with version 1.2.0 
+[0;36minfo:[0m [0;32m>> [0mplugin "lightbox" installed with success 
+[0;36minfo:[0m  
+[0;36minfo:[0m installing plugin "favicon" 
+[0;36minfo:[0m install plugin "favicon" (*) from NPM with version 0.0.2 
+[0;36minfo:[0m [0;32m>> [0mplugin "favicon" installed with success 
+[0;36minfo:[0m 19 plugins are installed 
+[0;36minfo:[0m 16 explicitly listed 
+[0;36minfo:[0m loading plugin "advanced-emoji"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "toggle-chapters"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "splitter"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "github"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "github-buttons"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "search-plus"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "anchor-navigation-ex-toc"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "editlink"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "fontsettings"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "copy-code-button"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "lightbox"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "favicon"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "highlight"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "theme-comscore"... [0;32mOK[0m 
+[0;36minfo:[0m loading plugin "theme-default"... [0;32mOK[0m 
+[0;36minfo:[0m found 43 pages 
+[0;36minfo:[0m found 13 asset files 
+init!
