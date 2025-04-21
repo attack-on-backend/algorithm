@@ -1,160 +1,72 @@
 # Attack on Algorithm - 栈 🐝 
 
+## 定义
 
+**栈 :** 栈是一种遵循后进先出原则的线性数据结构
 
+**后进先出 (Last In, First Out, LIFO) :** 最后一个进入栈的元素将是第一个被移除的元素
 
+栈是一种受限数据结构 , 只允许新的元素从一个固定的方向插入或者删除 , 这个方位我们叫做**栈顶** , 而从其他位置获取元素是不被允许的
 
+![stack-01](https://github.com/attack-on-backend/algorithm/blob/master/assert/stack-01.png?raw=true)
 
+通常 , 插入操作在栈中被称作**入栈 `push`**  , 总是添加新元素到栈顶 ; 删除操作在栈中被称作**出栈 `pop`**  , 总是从栈顶移除元素
 
+![stack-01](https://github.com/attack-on-backend/algorithm/blob/master/assert/stack-02.gif?raw=true)
 
-<extoc></extoc>
+栈的基本操作 : 
 
-## 讲义
+- `push()` : 将一个元素添加到栈顶
+- `pop()` : 移除并返回栈顶元素
+- `peek()` : 返回栈顶的元素但是不移除它
+- `is_empty()` : 检查栈是否为空
+- `size()` : 返回栈中元素的数量
 
-[leetcode - queue-stack](https://leetcode-cn.com/leetbook/detail/queue-stack/)
+## 实现
+
+栈的实现有两种方式 , 基于两种线性表的实现 : 数组和链表
+
+以下是数组的实现方式
+
+```python
+class ArrayStack:
+    """基于数组实现的栈"""
+
+    def __init__(self):
+        """构造方法"""
+        self._stack = []
+
+    def size(self) -> int:
+        """获取栈的长度"""
+        return len(self._stack)
+
+    def is_empty(self) -> bool:
+        """判断栈是否为空"""
+        return self.size() == 0
+
+    def push(self, item: int):
+        """入栈"""
+        self._stack.append(item)
+
+    def pop(self) -> int:
+        """出栈"""
+        if self.is_empty():
+            raise IndexError("栈为空")
+        return self._stack.pop()
+
+    def peek(self) -> int:
+        """访问栈顶元素"""
+        if self.is_empty():
+            raise IndexError("栈为空")
+        return self._stack[-1]
+
+    def to_list(self) -> list[int]:
+        """返回列表用于打印"""
+        return self._stack
+```
 
 ## 例题
 
-### 20.有效的括号
-
-给定一个只包括 '('，')'，'{'，'}'，'['，']' 的字符串 s ，判断字符串是否有效。
-
-有效字符串需满足：
-
-左括号必须用相同类型的右括号闭合。
-左括号必须以正确的顺序闭合。
-
-
-示例 1：
-```
-输入：s = "()"
-输出：true
-```
-示例 2：
-```
-输入：s = "()[]{}"
-输出：true
-```
-示例 3：
-```
-输入：s = "(]"
-输出：false
-```
-示例 4：
-```
-输入：s = "([)]"
-输出：false
-```
-示例 5：
-```
-输入：s = "{[]}"
-输出：true
-```
-
-提示：
-```
-1 <= s.length <= 104
-s 仅由括号 '()[]{}' 组成
-```
-
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/valid-parentheses
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-
-### 155.最小栈
-
-设计一个支持 `push` ，`pop` ，`top` 操作，并能在常数时间内检索到最小元素的栈。
-
-`push(x)` —— 将元素 x 推入栈中。
-`pop()` —— 删除栈顶的元素。
-`top()` —— 获取栈顶元素。
-`getMin()` —— 检索栈中的最小元素。
-
-
-示例:
-```
-输入：
-["MinStack","push","push","push","getMin","pop","top","getMin"]
-[[],[-2],[0],[-3],[],[],[],[]]
-
-输出：
-[null,null,null,null,-3,null,0,-2]
-
-解释：
-MinStack minStack = new MinStack();
-minStack.push(-2);
-minStack.push(0);
-minStack.push(-3);
-minStack.getMin();   --> 返回 -3.
-minStack.pop();
-minStack.top();      --> 返回 0.
-minStack.getMin();   --> 返回 -2.
-```
-
-提示：
-
-- `pop`、`top` 和 `getMin` 操作总是在 非空栈 上调用。
-
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/min-stack
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
-
-### 150.逆波兰表达式求值
-
-根据 逆波兰表示法，求表达式的值。
-
-有效的算符包括 `+`、`-`、`*`、`/` 。每个运算对象可以是整数，也可以是另一个逆波兰表达式。
-
-说明：
-
-- 整数除法只保留整数部分。
-- 给定逆波兰表达式总是有效的。换句话说，表达式总会得出有效数值且不存在除数为 0 的情况。
-
-
-示例 1：
-```
-输入：tokens = ["2","1","+","3","*"]
-输出：9
-解释：该算式转化为常见的中缀算术表达式为：((2 + 1) * 3) = 9
-```
-示例 2：
-```
-输入：tokens = ["4","13","5","/","+"]
-输出：6
-解释：该算式转化为常见的中缀算术表达式为：(4 + (13 / 5)) = 6
-```
-示例 3：
-```
-输入：tokens = ["10","6","9","3","+","-11","*","/","*","17","+","5","+"]
-输出：22
-解释：
-该算式转化为常见的中缀算术表达式为：
-  ((10 * (6 / ((9 + 3) * -11))) + 17) + 5
-= ((10 * (6 / (12 * -11))) + 17) + 5
-= ((10 * (6 / -132)) + 17) + 5
-= ((10 * 0) + 17) + 5
-= (0 + 17) + 5
-= 17 + 5
-= 22
-```
-
-提示：
-
-- `1 <= tokens.length <= 104`
-- `tokens[i]` 要么是一个算符（`"+"`、`"-"`、`"*"` 或 `"/"`），要么是一个在范围 `[-200, 200]` 内的整数
-
-
-逆波兰表达式：
-
-逆波兰表达式是一种后缀表达式，所谓后缀就是指算符写在后面。
-
-平常使用的算式则是一种中缀表达式，如 `( 1 + 2 ) * ( 3 + 4 )` 。
-该算式的逆波兰表达式写法为 `( ( 1 2 + ) ( 3 4 + ) * )` 。
-逆波兰表达式主要有以下两个优点：
-
-去掉括号后表达式无歧义，上式即便写成 `1 2 + 3 4 + *` 也可以依据次序计算出正确结果。
-适合用栈操作运算：遇到数字则入栈；遇到算符则取出栈顶两个数字进行计算，并将结果压入栈中。
-
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/evaluate-reverse-polish-notation
-著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
+- [155. 最小栈](https://leetcode-cn.com/problems/min-stack)
+- [20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses)
+- [150. 逆波兰表达式求值](https://leetcode-cn.com/problems/evaluate-reverse-polish-notation)
