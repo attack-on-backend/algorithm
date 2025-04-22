@@ -8,12 +8,11 @@
 
 [在线阅读](https://attack-on-backend.github.io/algorithm/) 体验更丝滑哟 
 
-**还没写完哈...精彩内容...需要等待...**
-
 ## 目录 🚀
 
 * 开始
   * [介绍](/README.md)
+  * [基础](/basic/basic.md)
 * 基础篇
   * [数组](/basic/array.md)
   * [栈](/basic/stack.md)
@@ -52,3 +51,9 @@
   * [20.有效的括号](/solution/valid-parentheses.md)
   * [155.最小栈](/solution/min-stack.md)
   * [150.逆波兰表达式求值](/solution/evaluate-reverse-polish-notation.md)
+
+### 参考资料
+
+1. 《算法导论》
+2. [LeetCode](https://leetcode-cn.com/)
+3. [算法通关手册](https://algo.itcharge.cn/)

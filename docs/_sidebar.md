@@ -3,6 +3,7 @@
 * 开始
 
   * [介绍](/README.md)
+  * [基础](/basic/basic.md)
 
 * 基础篇
 
