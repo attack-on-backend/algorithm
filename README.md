@@ -20,10 +20,10 @@
   * [链表](/basic/linked-list.md)
   * [树](/basic/tree.md)
   * [哈希表](/basic/hash-table.md)
-  * [双指针](/basic/double-pointer.md)
+  * [双指针](/basic/two-pointer.md)
 * 进阶篇
   * [前缀树](/advanced/trie.md)
-  * [并查集](/advanced/disjoint-set.md)
+  * [并查集](/advanced/union-find.md)
   * [跳表](/advanced/jump-table.md)
   * [剪枝](/advanced/prune.md)
   * [图](/advanced/map.md)
