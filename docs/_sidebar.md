@@ -20,8 +20,7 @@
   * [前缀树](/advanced/trie.md)
   * [并查集](/advanced/union-find.md)
   * [跳表](/advanced/skip-list.md)
-  * [剪枝](/advanced/prune.md)
-  * [图](/advanced/map.md)
+  * [图](/advanced/graph.md)
   * [堆](/advanced/heap.md)
 
 * 拓展篇
