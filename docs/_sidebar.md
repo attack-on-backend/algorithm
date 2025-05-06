@@ -33,15 +33,16 @@
 
 * 专题篇
 
-  * [二分法](/topic/dichotomy.md)
+  * [二分法](/topic/binary-search.md)
   * [位运算](/topic/bit.md)
   * [排序](/topic/sort.md)
+  * [递归](/topic/recursion.md)
+  * [回溯](/topic/backtracking.md)
   * [搜索](/topic/search.md)
-  * [递归与回溯](/topic/recursion-and-backtracking.md)
-  * [字符串匹配](/topic/string-matching.md)
   * [动态规划](/topic/dp.md)
   * [分治](/topic/divide.md)
   * [贪心](/topic/greedy.md)
+  * [字符串匹配](/topic/string-matching.md)
 
 * 题解
   * [66.加一](/solution/plus-one.md)

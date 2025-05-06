@@ -2,9 +2,7 @@
 
 ## 前言
 
-排序问题是我们学习编程过程中最常见的 , 以Python中的列表为例 , 进行排序算法分析 , 
-
-在进行分析之前 , 我们先自己写一个时间测试装饰器
+开始之前先写一个时间测试装饰器
 
 
 ```python
@@ -19,8 +17,6 @@ def cal_time(func):
     return wrapper
 ```
 
-这个装饰器只是为了进行简单的时间测试 , 因为影响一个算法的执行时间实在是太多 , 但对于我们学习算法确是够了
-
 ## 冒泡排序
 
 工作流程 : 
@@ -30,7 +26,7 @@ def cal_time(func):
 
 图解 : 
 
-![bubble_sort](https://github.com/attack-on-backend/algorithm/blob/master/assert//bubble_sort.gif?raw=true)
+![bubble_sort](https://github.com/attack-on-backend/algorithm/blob/master/assert/bubble_sort.gif?raw=true)
 
 
 代码实现 : 
@@ -114,7 +110,7 @@ select_sort running time: 18.08176565170288 secs.
 
 图解 : 
 
-![insert_sort](https://github.com/attack-on-backend/algorithm/blob/master/assert//insert_sort.gif?raw=true?raw=true)
+![insert_sort](https://github.com/attack-on-backend/algorithm/blob/master/assert/insert_sort.gif?raw=true?raw=true)
 
 代码实现 : 
 
@@ -152,7 +148,7 @@ insert_sort running time: 18.230905055999756 secs.
 
 图解 : 
 
-![quick_sort](https://github.com/attack-on-backend/algorithm/blob/master/assert//quick_sort.gif?raw=true)
+![quick_sort](https://github.com/attack-on-backend/algorithm/blob/master/assert/quick_sort.gif?raw=true)
 
 代码实现 : 
 
@@ -320,7 +316,7 @@ heapq.nlargest(100, li)
 
 图解 : 
 
-![merge_sort](https://github.com/attack-on-backend/algorithm/blob/master/assert//merge_sort.png?raw=true)
+![merge_sort](https://github.com/attack-on-backend/algorithm/blob/master/assert/merge_sort.png?raw=true)
 
 代码实现 : 
 
