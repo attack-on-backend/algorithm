@@ -29,9 +29,9 @@
   * [优先队列](/expend/priority-queue.md)
   * [单调栈](/expend/monotone-stack.md)
   * [线段树](/expend/segment-tree.md)
-  * [树状数组](/expend/tree-array.md)
+  * [树状数组](/expend/fenwick-tree.md)
 
-* 拓展篇
+* 专题篇
 
   * [二分法](/topic/dichotomy.md)
   * [位运算](/topic/bit.md)
